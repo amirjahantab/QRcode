@@ -1,7 +1,7 @@
 import os
 import qrcode
 
-link = str(input("enter your linck: "))
+link = str(input("enter your link: "))
 
 img = qrcode.make(link)
 
